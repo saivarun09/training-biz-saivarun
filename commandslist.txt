@@ -366,3 +366,5 @@ crontab -l
 crontab -e
 ./push_history.sh
 cd training-biz-saivarun/
+./push_history.sh
+ls

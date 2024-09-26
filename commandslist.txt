@@ -328,3 +328,32 @@ cd training-biz-saivarun/
 vi push_history.sh
 ./push_history.sh
 git remote set-url origin git@github.com:saivarun09/training-biz-saivarun.git
+./push_history.sh
+ls
+rm log_commands.sh
+ls
+cat nano
+rm nano
+ls
+cat push_history.sh
+cat commandslist
+cat commandslist.txt
+ls
+cat test.txt
+rm test.txt
+ls
+cd 
+ls
+cat test.txt
+rm test.txt
+rm xe-downloads.html 
+ls
+cat commandslist.txt
+date
+ls
+cat commandlists.txt
+rm commandlists.txt
+ls
+crontab -l
+./push_history.sh
+cd training-biz-saivarun/

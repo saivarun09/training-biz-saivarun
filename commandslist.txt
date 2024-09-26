@@ -375,3 +375,4 @@ date
 date
 ./push_history.sh
 date
+crontab -e

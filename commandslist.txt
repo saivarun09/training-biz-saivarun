@@ -371,3 +371,5 @@ ls
 cat commandslist.txt 
 crontab -e
 date
+./push_history.sh
+date

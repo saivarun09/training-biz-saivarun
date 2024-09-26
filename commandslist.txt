@@ -364,3 +364,5 @@ cat push_history.sh
 cd 
 crontab -l
 crontab -e
+./push_history.sh
+cd training-biz-saivarun/

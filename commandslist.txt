@@ -386,3 +386,7 @@ history
 date
 crontab -e
 ls
+date
+ls
+date
+ls

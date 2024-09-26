@@ -423,3 +423,6 @@ date
 ./push_history.sh 
 hello
 date
+ls
+hi
+date

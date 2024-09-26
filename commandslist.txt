@@ -436,3 +436,6 @@ hello
 date
 crontab -e
 date
+ls
+hello
+date

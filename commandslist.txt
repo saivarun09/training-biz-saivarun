@@ -326,3 +326,5 @@ vi .bashrc
 source .bashrc
 cd training-biz-saivarun/
 vi push_history.sh
+./push_history.sh
+git remote set-url origin git@github.com:saivarun09/training-biz-saivarun.git

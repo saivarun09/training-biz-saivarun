@@ -380,3 +380,4 @@ cat push_history.sh
 date
 ls
 date
+./push_history.sh

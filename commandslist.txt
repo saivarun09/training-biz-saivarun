@@ -1,0 +1,328 @@
+sudo su -
+exit
+sudo service ssh restart
+sudo service sshd restart
+exit
+cd .ssh
+vi authorized_keys 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDApL3HQf1hpQfvdj+4g4Ovv8mb8XniH4zl+rVyalB2AHtvK0qchfnzECRFB0cgrUhM6c0+yWrsWUvzJ3AO8qLNnkU5gDWAhfejsLgQG8WSejrhuS9Oool9bYrAdf7p0bwoBKoWEpwWM+jyK7S7n0qosF+QKElBahSN/eSIRN2RuJQyXFw11upXSUdRbsktMJSXxwL3zojt+MDvplw77Jj1aWOt/aP8G6yyPXQVwrxlabqaeVHiWQBQl50wSa/KtxeTmFXAeBFW1gD4o7wKTBoYVx4XTf0d+XTB3OHUcYhf7IQlUmjZYW1wTktgbcp/CcrTxUhsQxcdJQbd9NeHd8hN5hvWWgepk6RCKhq106oyWsPRbn0PV3Bgh8S2u5KTFbPFrSc778SJjSH5oty1c3eAk+6qGztkLRhJyoKYKmNvVt3PsZTCllSDAoVPrIDA8dVF7ljvjhOCczBrr63UGiaLdNyk3HrHUBUQo2XHni+Lv+GCrqtnfdIelaZqwZjhf9M= rajukeypair
+vi authorized_keys 
+cat authorized_keys
+ls
+cd ..
+ls
+cd ec2-user
+mkdir .ssh
+ls
+cd .ssh
+vi authorized_keys 
+cat >> authorized_keys
+exit
+ls:wq
+ls
+cd .ssh
+ls
+vi authorized_keys 
+exit
+mkdir codes
+cd codes
+touch file1.sh
+touch a.txt
+touch b.txt
+vi file1.sh
+cat >> file1.sh
+cat file1.sh
+./file1.sh a.txt b.txt
+chmod +x file1.sh
+./file1.sh a.txt b.txt
+cat >> a.txt
+cat  a.txt
+./file1.sh a.txt b.txt
+cat b.txt
+cat >> a.txt
+./file1.sh a.txt b.txt
+cat b.txt
+cat a.txt
+vi a.txt
+cat a.txt
+./file1.sh a.txt b.txt
+cat b.txt
+ls
+cd codes
+ls
+./file1.sh file1.txt file2.txt
+./file1.sh b.txt b.txt
+touch b.txt
+ls
+cat file2.txt
+cat b.txt
+vi b.txt
+vi a.txt
+./file1.sh a.txt b.txt
+cat a.txt
+cat b.txt
+exit
+cd codes
+ls
+cat a.txt
+cat b.txt
+history
+cat b.txt
+cat authorized_keys
+|
+echo hi | echo hello
+ls
+cd codes
+ls
+touch test.txt
+history
+hello | test.txt
+echo hello | test.txt
+echo hello | > test.txt
+cat test.txt
+echo 'hello' | > test.txt
+cat test.txt
+ls
+ls | grep "f$"
+ls | grep "f%"
+vi
+free 
+free -g
+free -m
+sed
+sed a.txt
+cat a.txt
+du 
+du -h
+du -ah
+ls -ah
+ls -a
+du -a
+df -ah
+top
+uname -a
+exit
+sudo su
+cd .ssh
+cat >> authorized_keys
+yum update
+sudo yum update
+java -version
+sudo yum install java-17-openjdk
+java -version
+sudo yum install wget -y
+wget https://www.oracle.com/in/database/technologies/xe-downloads.html
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727075899_e62ae50743b3a03b49cd1f02536f3e6c
+ls
+ls -lh
+history
+rn 'https://www.oracle.com/in/database/technologies/xe-downloads.html'
+rm 'https://www.oracle.com/in/database/technologies/xe-downloads.html'
+ls
+ls -lh
+ls
+mv 'oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm?AuthParam=1727075899_e62ae50743b3a03b49cd1f02536f3e6c' oracle-database-xe-21c-1.0.o18.x86_64.rpm
+ls
+clear
+sudo yum localinstall oracle-database-xe-21c-1.0.o18.x86_64.rpm 
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum localinstall oracle-database-xe-21c-1.0.o18.x86_64.rpm 
+clear
+ls
+sudo yum install oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+sudo yum install oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+ls
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0.o18.x86_64.rpm 
+history
+sudo yum localinstall oracle-database-xe-21c-1.0.o18.x86_64.rpm 
+free -k
+date
+free -m
+top
+/etc/sysconfig/oracle-xe-21c.conf
+sudo /etc/sysconfig/oracle-xe-21c.conf
+sudo /etc/init.d/oracle-xe-21c configure
+sqlplus
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+sudo yum install screen
+sudo yum install tmux
+sqlplus
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+ls
+ls -ah
+vi .bash_profile
+cat .bash_profile
+source ~/.bash_profile
+sqlplus
+exit
+sqlplus
+sudo bash
+wxit
+exit
+tnsping xe
+tnsping XE
+sudo bash
+history
+sqlplus
+cat .bash_profile
+export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+export ORACLE_SID=XE
+export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+sqlplus
+history
+tnsping XE
+tnsping xe
+sudo bash
+sqlplus
+sqlplus saivarun/saivarun09
+sql classicmodels/classicmodels
+sqlplus classicmodels/classicmodels
+cd $ORACLE_HOME/
+ls
+cd bin
+ls
+cd..
+cd .
+cd ..
+exit
+ls
+/opt/oracle/product/21c/dbhomeXE/bin
+sudo bash
+cd /opt/oracle/product/21c/dbhomeXE/bin
+imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+exit
+history
+sqlplus
+sudo  bash
+source service oracle-21c-XE start
+ls -al
+sudo bash
+sqlplus
+#1727333088
+ls
+#1727333115
+export HISTTIMEFORMAT="%F %T "
+#1727333138
+source ~/.bashrc
+#1727333146
+history > commandslist.txt
+#1727333149
+ls
+#1727333161
+cat commandslist.txt
+sudo yum install git -y
+sudo apt-get install git -y
+git clone https://github.com/saivarun09/training-biz-saivarun.git
+cd training-biz-saivarun
+nano log_commands.sh
+vi nano log_commands.sh
+chmod +x log_commands.sh
+ls
+chmod +x nano log_commands.sh
+cd nano
+cat nano
+vi log_commands.sh
+ls
+chmod +x log_commands.sh
+crontab -e
+crontab -l
+ls
+pwd
+crontab -e
+crontab -l
+crontab -e
+touch test.txt
+crontab -e
+date
+cat test.txt
+crontab -e
+date
+cat test.txt
+date
+cat test.txt
+crontab -e
+cat test.txt
+date
+cat test.txt
+clear
+cat test.txt
+cat ta
+cat text
+cat test
+clear
+cat log_commands.sh
+vi log_commands.sh
+cat log_commands.sh
+cat test.txt
+date
+cat test.txt
+date
+cat test.txt
+vi log_commands.sh
+ls
+cat test.txt
+date
+cat test.txt
+date
+cat test.txt
+history
+ls
+cat commandlists.txt
+date
+cat commandslist.txt
+touch push_history.sh
+vi push_history.sh
+pwd
+ls
+cd training-biz-saivarun
+pwd
+cd
+cd /home/ec2-user/training-biz-saivarun
+cd
+vi push_history.sh
+mv push_history.sh /home/ec2-user/training-biz-saivarun
+ls
+cd training-biz-saivarun/
+ls
+chmod +x ~/chmod +x ~//home/ec2-user/training-biz-saivarun/push_history.sh
+chmod +x ~/home/ec2-user/training-biz-saivarun/push_history.sh
+pwd
+cd
+chmod +x ~/home/ec2-user/training-biz-saivarun/push_history.sh
+cd training-biz-saivarun
+cd
+chmod +x /training-biz-saivarun/push_history.sh
+chmod +x training-biz-saivarun/push_history.sh
+crontab -e
+crontab -l
+ssh-keygen -t rsa -b 4096 -C "varunrajkumar@yahoo.com"
+cat id_rsa.pub
+cd .ssh
+cat id_rsa.pub
+cd -
+ls -a
+cd training-biz-saivarun
+ls -a
+touch commandslist.txt
+ls -a
+vi push_history.sh
+sudo bash
+cd ..
+ls
+ls -a
+vi .bashrc
+source .bashrc
+cd training-biz-saivarun/
+vi push_history.sh

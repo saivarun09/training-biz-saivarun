@@ -391,3 +391,13 @@ ls
 date
 ls
 date
+ls
+date
+crontab
+corntab
+crontab -e
+date
+ls
+date
+ls
+date

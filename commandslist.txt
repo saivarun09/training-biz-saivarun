@@ -384,3 +384,5 @@ date
 date
 history
 date
+crontab -e
+ls

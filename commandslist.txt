@@ -420,3 +420,6 @@ varun
 date
 crontab -e
 date
+./push_history.sh 
+hello
+date

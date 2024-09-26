@@ -378,3 +378,4 @@ date
 crontab -e
 cat push_history.sh
 date
+ls

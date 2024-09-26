@@ -373,3 +373,5 @@ crontab -e
 date
 ./push_history.sh
 date
+./push_history.sh
+date

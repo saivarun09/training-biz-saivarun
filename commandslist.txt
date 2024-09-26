@@ -426,3 +426,6 @@ date
 ls
 hi
 date
+hi
+echo
+date

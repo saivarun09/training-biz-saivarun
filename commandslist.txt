@@ -454,3 +454,7 @@ date
 date
 ls
 date
+ls
+date
+cd home
+exit

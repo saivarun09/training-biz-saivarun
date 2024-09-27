@@ -441,3 +441,8 @@ hello
 date
 ls
 date
+ls
+cd training-biz-saivarun/
+ls
+cat commandslist.txt 
+cat push_history.sh 

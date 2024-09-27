@@ -447,3 +447,4 @@ ls
 cat commandslist.txt 
 cat push_history.sh 
 sudo bash
+crontab -l

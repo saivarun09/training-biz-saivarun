@@ -486,3 +486,4 @@ sudo systemctl restart postfix
 /home/ec2-user/send_email.sh
 ls
 cat send_email.sh 
+echo "Test email body" | sendmail -v sai.rajkumar@bizacuity.com

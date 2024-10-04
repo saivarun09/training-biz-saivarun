@@ -468,3 +468,5 @@ nano /etc/postfix/main.cf
 sudo yum install nano -y
 sudo nano /etc/postfix/main.cf
 cat /etc/postfix/main.cf
+sudo nano /etc/postfix/main.cf
+sudo nano /etc/postfix/sasl_passwd

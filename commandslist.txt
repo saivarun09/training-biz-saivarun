@@ -459,3 +459,4 @@ date
 cd home
 exit
 sudo yum update -y
+sudo yum install mailx ssmtp -y

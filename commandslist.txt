@@ -487,3 +487,7 @@ sudo systemctl restart postfix
 ls
 cat send_email.sh 
 echo "Test email body" | sendmail -v sai.rajkumar@bizacuity.com
+ls /var/spool/mail/ec2-user
+cat /var/spool/mail/ec2-user
+echo "Test email body" | sendmail -v sai.rajkumar@bizacuity.com
+sudo yum install mailx -y

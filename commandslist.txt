@@ -458,3 +458,4 @@ ls
 date
 cd home
 exit
+sudo yum update -y

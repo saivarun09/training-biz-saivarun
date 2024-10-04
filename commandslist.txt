@@ -479,3 +479,10 @@ sudo /home/ec2-user/send_email.sh
 chmod +x /home/ec2-user/send_email.sh
 sudo /home/ec2-user/send_email.sh
 /home/ec2-user/send_email.sh
+sudo tail -f /var/log/maillog
+chmod +x /home/ec2-user/send_email.sh
+/home/ec2-user/send_email.sh
+sudo systemctl restart postfix
+/home/ec2-user/send_email.sh
+ls
+cat send_email.sh 

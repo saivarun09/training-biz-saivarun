@@ -463,3 +463,6 @@ sudo yum install mailx ssmtp -y
 sudo yum install postfix -y
 sudo systemctl start postfix
 sudo systemctl enable postfix
+sudo nano /etc/postfix/main.cf
+nano /etc/postfix/main.cf
+sudo yum install nano -y

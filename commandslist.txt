@@ -460,3 +460,6 @@ cd home
 exit
 sudo yum update -y
 sudo yum install mailx ssmtp -y
+sudo yum install postfix -y
+sudo systemctl start postfix
+sudo systemctl enable postfix

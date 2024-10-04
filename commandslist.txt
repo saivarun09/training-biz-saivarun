@@ -470,3 +470,12 @@ sudo nano /etc/postfix/main.cf
 cat /etc/postfix/main.cf
 sudo nano /etc/postfix/main.cf
 sudo nano /etc/postfix/sasl_passwd
+sudo chmod 600 /etc/postfix/sasl_passwd
+sudo postmap /etc/postfix/sasl_passwd
+sudo systemctl restart postfix
+nano /home/ec2-user/send_email.sh
+/home/ec2-user/send_email.sh
+sudo /home/ec2-user/send_email.sh
+chmod +x /home/ec2-user/send_email.sh
+sudo /home/ec2-user/send_email.sh
+/home/ec2-user/send_email.sh

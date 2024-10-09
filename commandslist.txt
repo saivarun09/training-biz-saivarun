@@ -491,3 +491,205 @@ ls /var/spool/mail/ec2-user
 cat /var/spool/mail/ec2-user
 echo "Test email body" | sendmail -v sai.rajkumar@bizacuity.com
 sudo yum install mailx -y
+sudo yum install sendmail -y
+sudo service sendmail start
+sudo systemctl enable sendmail
+nano ~/send_system_stats.sh
+chmod +x ~/send_system_stats.sh
+crontab -e
+./send_system_stats.sh 
+nano ~/send_system_stats.sh
+./send_system_stats.sh 
+chmod +x ~/send_system_stats.sh
+./send_system_stats.sh 
+cd /var/spool/mail
+ls
+cd saivarun 
+ls
+cat saivarun 
+cd ec2-user 
+cat ec2-user 
+sudo yum install sendmail sendmail -cf -y
+sudo nano /etc/mail/sendmail.mc
+sudo nano /etc/mail/authinfo
+sudo makemap hash /etc/mail/authinfo < /etc/mail/authinfo
+sudo m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf
+sudo m4 /etc/mail/sendmail.mc | sudo tee /etc/mail/sendmail.cf > /dev/null
+sudo yum install m4 -y
+sudo m4 /etc/mail/sendmail.mc | sudo tee /etc/mail/sendmail.cf > /dev/null
+sudo yum install python3 -y
+sudo yum install python3-pip -y
+pip3 install psutil
+vi sendmail.py
+python3 sendmail.py
+vi sendmail.py
+python3 sendmail.py
+crontab -e
+date
+vi sendmail.py
+history
+vi sendmail.py
+crontab -e
+vi sendmail.py
+python3 sendmail.py
+vi sendmail.py
+python3 sendmail.py
+vi sendmail.py
+python3 sendmail.py
+vi sendmail.py
+sudo apt install mailutils -y
+sudo install mailutils -y
+sudo install mailutils
+yum install mailx
+sudo yum install mailx
+cat /etc/os-release
+sudo amazon-linux-extras install epel
+sudo yum install -y heirloom-mailx
+mail –s "Test Email" james@example.com
+sudo subscription-manager attach --auto
+sudo subscription-manager register --auto
+sudo subscription-manager register --help
+sudo subscription-manager register --username <your_redhat_username> --password <your_redhat_password>
+sudo subscription-manager register --username saivarun09 --password sujraj24
+sudo subscription-manager attach --auto
+sudo yum install -y mailx
+sudo subscription-manager repos --list
+sudo subscription-manager repos --enable rhel-9-for-x86_64-baseos-rpms
+sudo subscription-manager repos --enable rhel-9-for-x86_64-appstream-rpms
+sudo dnf clean all
+sudo dnf makecache
+sudo dnf install -y mailx
+sudo install -y mailx
+sudo install mailx
+sudo yum install mutt
+mutt -s "Test Email" varunrajkumar@yahoo.com < /dev/null
+mutt -s "Test Email" sai.rajkumar@yahoo.com < /dev/null
+sudo subscription-manager repos --enable rhel-9-for-x86_64-baseos-rpms
+sudo subscription-manager repos --enable rhel-9-for-x86_64-appstream-rpms
+sudo subscription-manager status
+sudo yum install sendmail -y
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
+sudo systemctl status sendmail.service
+sudo nano /etc/mail/sendmail.mc
+sudo mkdir -p /var/spool/mqueue
+define(`confQUEUE_DIR', `/var/spool/mqueue')dnl
+define(`confLOCAL_MAILER', `local')dnl
+sudo chown root:mail /var/spool/mqueue
+sudo chmod 770 /var/spool/mqueue
+sudo m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
+systemctl status sendmail.service
+systemctl active sendmail.service
+systemctl enable sendmail.service
+sudo systemctl enable sendmail.service
+systemctl status sendmail.service
+systemctl start sendmail.service
+sudo systemctl start sendmail.service
+sudo yum install sendmail -y
+sudo yum install sendmail-cf -y
+sudo yum install cyrus-sasl-plain
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
+sudo /usr/sbin/sendmail -bd -q30m
+sudo systemctl restart sendmail
+sudo systemctl start sendmail
+sudo systemctl enable sendmail
+sudo systemctl restart sendmail
+sudo systemctl start sendmail
+sendmail daemon
+sestatus
+sudo setenforce 0
+sudo systemctl restart sendmail.service
+sudo systemctl status sendmail.service
+sudo journalctl -xeu sendmail.service
+sudo journalctl -u sendmail.service --since "10 minutes ago"
+sudo systemctl stop sendmail
+sudo systemctl disable sendmail
+sudo yum remove sendmail
+sudo rm -rf /etc/mail
+sudo rm -rf /var/spool/mqueue
+sudo yum remove sendmail-cf
+sudo yum clean all
+which sendmail
+sudo systemctl stop sendmail
+sudo yum remove sendmail
+rpm -qa | grep sendmail
+sudo rm -rf /etc/mail
+sudo rm -rf /var/spool/mqueue
+which sendmail
+sudo yum clean all
+sudo systemctl status sendmail
+sudo systemctl stop sendmail
+sudo systemctl disable sendmail
+sudo yum remove sendmail
+which sendmail
+cd /usr/sbin
+ls
+cd sendmail
+rm sendmail
+sudo rm sendmail
+sudo 
+cd ..
+cd..
+cd 
+which sendmail
+ls
+vi sendmail.py
+sudo rm -rf /etc/mail
+sudo rm -rf /var/spool/mqueue
+sudo rm -f /usr/sbin/sendmail
+sudo rm -f /usr/sbin/sendmail.postfix
+cd /usr/sbin
+ls
+exit
+sudo yum install sendmail -y
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
+sudo vi /etc/mail/sendmail.mc
+sudo yum install sendmail-cf -y
+sudo vi etc/mail/authinfo
+cd /etc
+cd mail
+ls
+touch authinfo
+sudo touch authinfo
+sudo vi authinfo \
+sudo vi authinfo
+sudo systemctl restart sendmail
+systemctl status sendmail.service
+ls
+sudo vi sendmail.mc
+sudo yum install sendmail-cf -y
+sudo yum install cyrus-sasl-plain
+sudo systemctl restart sendmail
+echo -e "Subject: Hola\n\n Hooola" | sendmail -v varunrajkumar@yahoo.com
+sudo vi /home/ec2-user/mail.sh
+./mail.sh
+sudo ./mail.sh
+cd home
+cd /home/ec2-user
+ls
+./mail.sh
+cd mail.sh
+vi mail.sh
+chmod +x mail.sh
+ld
+ls
+rm mail.sh~
+ls
+./mail.sh
+czat mail.sh
+cat mail.sh
+vi mail.sh
+./mail.sh
+vi mail.sh
+./mail.sh
+vi mail.sh
+./mail.sh
+crontab -e
+exit
+ls
+crontab -e
+history

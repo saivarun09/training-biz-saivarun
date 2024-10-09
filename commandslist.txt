@@ -693,3 +693,4 @@ exit
 ls
 crontab -e
 history
+vi sendmail.py

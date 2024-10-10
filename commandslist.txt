@@ -695,3 +695,4 @@ crontab -e
 history
 vi sendmail.py
 crontab -e
+vi payments.csv
